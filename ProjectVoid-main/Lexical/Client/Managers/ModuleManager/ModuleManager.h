@@ -33,6 +33,7 @@
 #include "Modules/Category/Movement/Speed.h"
 #include "Modules/Category/Movement/Clip.h"
 #include "Modules/Category/Movement/Fly.h"
+#include "Modules/Category/Movement/Fly2.h"
 #include "Modules/Category/Movement/Jetpack.h"
 #include "Modules/Category/Movement/NoSlowDown.h"
 #include "Modules/Category/Movement/Phase.h"
@@ -124,7 +125,9 @@
 #include "Modules/Category/Client/ClickGUI.h"
 #include "Modules/Category/Client/Colors.h"
 #include "Modules/Category/Client/CustomFont.h"
+#include "Modules/Category/Client/FriendManagerModule.h"
 #include "Modules/Category/Client/TestModule.h"
+#include "Modules/Category/Client/Keystrokes.h"
 
 class ModuleManager {
 public:
