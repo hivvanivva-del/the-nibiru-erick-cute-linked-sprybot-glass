@@ -169,6 +169,7 @@
     <ClCompile Include="Client\Managers\HookManager\Hooks\FuncHook.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\ModuleManager.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Client\Colors.cpp" />
+    <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Client\FriendManagerModule.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Client\TestModule.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Combat\AnchorAura.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Combat\AntiPiston.cpp" />
@@ -197,6 +198,7 @@
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Movement\ElytraFly.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Movement\FastStop.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Movement\Fly.cpp" />
+    <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Movement\Fly2.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Movement\InventoryMove.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Movement\Jetpack.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Movement\LiquidMove.cpp" />
@@ -236,6 +238,7 @@
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Render\ESP.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Render\FreeLook.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Render\HUD.cpp" />
+    <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Client\Keystrokes.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Combat\Hitbox.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Misc\NoPacket.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Movement\NoSlowDown.cpp" />
@@ -397,6 +400,7 @@
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Movement\ElytraFly.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Movement\FastStop.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Movement\Fly.h" />
+    <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Movement\Fly2.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Movement\InventoryMove.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Movement\Jetpack.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Movement\LiquidMove.h" />
@@ -434,12 +438,14 @@
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Render\Arraylist.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Client\ClickGUI.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Client\CustomFont.h" />
+    <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Client\FriendManagerModule.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Render\BlockHighlight.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Render\ChunkBorders.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Render\CustomFov.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Render\ESP.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Render\FreeLook.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Render\HUD.h" />
+    <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Client\Keystrokes.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Combat\Hitbox.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Misc\NoPacket.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Movement\NoSlowDown.h" />
