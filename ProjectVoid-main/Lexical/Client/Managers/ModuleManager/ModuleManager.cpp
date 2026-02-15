@@ -21,7 +21,7 @@ void ModuleManager::init() {
 	moduleList.push_back(new KillAura());
 	moduleList.push_back(new Surround());
 	moduleList.push_back(new KillAura2());
-	moduleList.push_back(new KillauraTRI());
+	moduleList.push_back(new KillAuraTRI());
 
 	//MOVEMENT
 	moduleList.push_back(new AirJump());
@@ -37,6 +37,7 @@ void ModuleManager::init() {
 	moduleList.push_back(new NoClip());
 	moduleList.push_back(new AutoSprint());
 	moduleList.push_back(new Fly());
+	moduleList.push_back(new Fly2());
 	moduleList.push_back(new Jetpack());
 	moduleList.push_back(new NoSlowDown());
 	moduleList.push_back(new Phase());
@@ -122,13 +123,15 @@ void ModuleManager::init() {
 	moduleList.push_back(new ChatSpammer());
 	moduleList.push_back(new TickShift());
 	moduleList.push_back(new AutoHighway());
-	//moduleList.push_back(new NoFall());
+	moduleList.push_back(new NoFall());
 
 	//CLIENT
 	moduleList.push_back(new ClickGUI());
 	moduleList.push_back(new Colors());
 	moduleList.push_back(new CustomFont());
+	moduleList.push_back(new FriendManagerModule());
 	moduleList.push_back(new TestModule());
+	moduleList.push_back(new Keystrokes());
 
 	std::sort(moduleList.begin(), moduleList.end(), [](Module* lhs, Module* rhs) {
 		return lhs->getModuleName() < rhs->getModuleName();
